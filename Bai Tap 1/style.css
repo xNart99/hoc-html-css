@@ -1,0 +1,37 @@
+.hero-section {
+  display: flex;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.containter {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 25px;
+}
+
+.hero-desc span {
+  font-size: 16px;
+}
+
+.hero-desc {
+  width: 80%;
+}
+
+.hero-experience-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.hero-experience-list li {
+  display: grid;
+  margin-right: 10px;
+  font-size: 16px;
+  color: #373737;
+}
+
+.hero-experience-list strong {
+  color: #f26464;
+  font-size: 36px;
+}
